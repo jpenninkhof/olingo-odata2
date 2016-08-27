@@ -1,2 +1,11 @@
 language: java
-script: mvn clean install
+script: mvn clean pacakge
+deploy:
+  provider: releases
+  api_key:
+    secure: K49lnZSxOrYugEzhXzB3fMYWbWXmG3INfS/2bvP1eTN3juIlwoVVQfZEK+ngue5taTsjG5i4FV6hagrIAa6ImT0AfLb51znqhkD7RKH6c7q6qmGoj9wiVUFWcdwLiEC1xkSM5GRrHDP6rLK05gH3Oyn/SPjlT9ir+Enx3VsdgufloPgkZ0Abw3EGctuRYwDNS6u4r/u30y66tayr18xmSHtxewvSVyoznnWLGpfaTQYx/muBAD6WseoywG+LEMcaJPOKCNlY+PPJulx0HuEmTmUkazSZkCur31ogh4ZL1TIJLAKoDyp3OF9fyBLaY8jaeZTc71BmcmoliRrsmpex/jbD05D/Fo9WRRMlZJVRlT0VyvCu5kqwjK8XocJhUu+XljUDBqnFbi2G1ubWqfl4tNoQPaM/C5MM3txkVUawZpM3zaiVpYGHP0xvcbsBwfbM6PLkojwN+09gqpnH+tcefgFQH7YX+YOuecdAQ/ZW7iZZWJ4p6tglFdg2e/7FR9BIZJQvGyDsrp7Ayk/kiPfVsRjHMzSPTSts9j8IJ+1a2rYyp/1+d0TU91agZCtfHR7d9Y91qlIuuS7PPWuz8ofV/CjPO7n+mKy1cK8q/3uM+FUxnzaIim1jcikpbTTp1JJ9NPSWDXIj8iYgF7DV6uv5FouUhj8Oo5SCT6tUcnDDsEI=
+  file:
+    - "odata2-jpa-processor/jpa-api/target/olingo-odata2-jpa-processor-api-2.0.8-SNAPSHOT.jar"
+  skip_cleanup: true
+  on:
+    repo: jpenninkhof/olingo-odata2
