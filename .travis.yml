@@ -1,2 +1,2 @@
 language: java
-script: clean install
+script: install
