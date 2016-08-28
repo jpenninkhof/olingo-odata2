@@ -25,8 +25,8 @@
 
     "files":
         [
-            {"includePattern": "odata2-jpa-processor/jpa-api/target/olingo-odata2-jpa-processor-api-2.0.8-SNAPSHOT.jar"},
-            {"includePattern": "odata2-jpa-processor/jpa-core/target/olingo-odata2-jpa-processor-core-2.0.8-SNAPSHOT.jar"}
+            {"includePattern": "odata2-jpa-processor/jpa-api/target/olingo-odata2-jpa-processor-api-2.0.8-SNAPSHOT.jar", "uploadPattern": "olingo-odata2-jpa-processor-api-2.0.8.jar"},
+            {"includePattern": "odata2-jpa-processor/jpa-core/target/olingo-odata2-jpa-processor-core-2.0.8-SNAPSHOT.jar", "uploadPattern": "olingo-odata2-jpa-processor-core-2.0.8.jar"}
         ],
     "publish": true
 }
