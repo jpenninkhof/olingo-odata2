@@ -25,6 +25,7 @@
 
     "files":
         [
+            {"includePattern": "pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-parent/2.0.8/olingo-odata2-parent-2.0.8.pom"},
             {"includePattern": "odata2-jpa-processor/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor/2.0.8/olingo-odata2-jpa-processor-2.0.8.pom"},
             {"includePattern": "odata2-jpa-processor/jpa-api/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-api/2.0.8/olingo-odata2-jpa-processor-api-2.0.8.pom"},
             {"includePattern": "odata2-jpa-processor/jpa-api/target/olingo-odata2-jpa-processor-api-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-api/2.0.8/olingo-odata2-jpa-processor-api-2.0.8.jar"},
