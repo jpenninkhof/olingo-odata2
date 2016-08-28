@@ -16,17 +16,17 @@
     },
 
     "version": {
-        "name": "2.0.8-SNAPSHOT",
-        "desc": "2.0.8-SNAPSHOT",
+        "name": "2.0.8",
+        "desc": "2.0.8",
         "released": "2015-01-04",
-        "vcs_tag": "2.0.8-SNAPSHOT",
+        "vcs_tag": "2.0.8",
         "gpgSign": false
     },
 
     "files":
         [
-        {"includePattern": "odata2-jpa-processor/jpa-api/target/olingo-odata2-jpa-processor-api-2.0.8-SNAPSHOT.jar"},
-        {"includePattern": "odata2-jpa-processor/jpa-core/target/olingo-odata2-jpa-processor-core-2.0.8-SNAPSHOT.jar"}
+            {"includePattern": "odata2-jpa-processor/jpa-api/target/olingo-odata2-jpa-processor-api-2.0.8-SNAPSHOT.jar"},
+            {"includePattern": "odata2-jpa-processor/jpa-core/target/olingo-odata2-jpa-processor-core-2.0.8-SNAPSHOT.jar"}
         ],
     "publish": true
 }
