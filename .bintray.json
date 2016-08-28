@@ -25,10 +25,12 @@
 
     "files":
         [
+            {"includePattern": "odata2-jpa-processor/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor/2.0.8/olingo-odata2-jpa-processor-2.0.8.pom"},
             {"includePattern": "odata2-jpa-processor/jpa-api/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-api/2.0.8/olingo-odata2-jpa-processor-api-2.0.8.pom"},
             {"includePattern": "odata2-jpa-processor/jpa-api/target/olingo-odata2-jpa-processor-api-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-api/2.0.8/olingo-odata2-jpa-processor-api-2.0.8.jar"},
             {"includePattern": "odata2-jpa-processor/jpa-core/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-core/2.0.8/olingo-odata2-jpa-processor-core-2.0.8.pom"},
             {"includePattern": "odata2-jpa-processor/jpa-core/target/olingo-odata2-jpa-processor-core-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-core/2.0.8/olingo-odata2-jpa-processor-core-2.0.8.jar"},
+            {"includePattern": "odata2-lib/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-lib/2.0.8/olingo-odata2-lib-2.0.8.pom"},
             {"includePattern": "odata2-lib/odata-api/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-api/2.0.8/olingo-odata2-api-2.0.8.pom"},
             {"includePattern": "odata2-lib/odata-api/target/olingo-odata2-api-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-api/2.0.8/olingo-odata2-api-2.0.8.jar"},
             {"includePattern": "odata2-lib/odata-core/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-core/2.0.8/olingo-odata2-core-2.0.8.pom"},
