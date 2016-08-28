@@ -1,9 +1,9 @@
 {
     "package": {
         "name": "olingo-odata2",
-        "repo": "olingo-odata2",
+        "repo": "olingo",
         "subject": "jpenninkhof",
-        "desc": "I was pushed completely automatically",
+        "desc": "Olingo 2 (customized)",
         "website_url": "http://olingo.apache.org",
         "issue_tracker_url": "https://issues.apache.org/jira/browse/OLINGO/",
         "vcs_url": "https://github.com/jpenninkhof/olingo-odata2.git",
