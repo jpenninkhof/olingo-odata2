@@ -1,0 +1,40 @@
+{
+    "package": {
+        "name": "olingo-odata2",
+        "repo": "olingo",
+        "subject": "jpenninkhof",
+        "desc": "Olingo 2 (customized)",
+        "website_url": "http://olingo.apache.org",
+        "issue_tracker_url": "https://issues.apache.org/jira/browse/OLINGO/",
+        "vcs_url": "https://github.com/jpenninkhof/olingo-odata2.git",
+        "github_use_tag_release_notes": true,
+        "github_release_notes_file": "RELEASE.txt",
+        "licenses": ["Apache-2.0"],
+        "labels": ["odata", "olingo"],
+        "public_download_numbers": false,
+        "public_stats": false
+    },
+
+    "version": {
+        "name": "2.0.8",
+        "desc": "2.0.8",
+        "released": "2015-01-04",
+        "vcs_tag": "2.0.8",
+        "gpgSign": false
+    },
+
+    "files":
+        [
+            {"includePattern": "odata2-jpa-processor/jpa-api/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-api/2.0.8/olingo-odata2-jpa-processor-api-2.0.8.pom"},
+            {"includePattern": "odata2-jpa-processor/jpa-api/target/olingo-odata2-jpa-processor-api-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-api/2.0.8/olingo-odata2-jpa-processor-api-2.0.8.jar"},
+            {"includePattern": "odata2-jpa-processor/jpa-core/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-core/2.0.8/olingo-odata2-jpa-processor-core-2.0.8.pom"},
+            {"includePattern": "odata2-jpa-processor/jpa-core/target/olingo-odata2-jpa-processor-core-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-jpa-processor-core/2.0.8/olingo-odata2-jpa-processor-core-2.0.8.jar"},
+            {"includePattern": "odata2-lib/odata-api/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-api/2.0.8/olingo-odata2-api-2.0.8.pom"},
+            {"includePattern": "odata2-lib/odata-api/target/olingo-odata2-api-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-api/2.0.8/olingo-odata2-api-2.0.8.jar"},
+            {"includePattern": "odata2-lib/odata-core/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-core/2.0.8/olingo-odata2-core-2.0.8.pom"},
+            {"includePattern": "odata2-lib/odata-core/target/olingo-odata2-core-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-core/2.0.8/olingo-odata2-core-2.0.8.jar"},
+            {"includePattern": "odata2-lib/odata-annotation/pom.xml", "uploadPattern": "org/apache/olingo/olingo-odata2-api-annotation/2.0.8/olingo-odata2-api-annotation-2.0.8.pom"},
+            {"includePattern": "odata2-lib/odata-annotation/target/olingo-odata2-api-annotation-2.0.8.jar", "uploadPattern": "org/apache/olingo/olingo-odata2-api-annotation/2.0.8/olingo-odata2-api-annotation-2.0.8.jar"}
+        ],
+    "publish": true
+}
