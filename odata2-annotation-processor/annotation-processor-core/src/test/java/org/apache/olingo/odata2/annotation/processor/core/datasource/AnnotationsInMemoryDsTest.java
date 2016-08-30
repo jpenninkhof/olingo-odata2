@@ -706,7 +706,7 @@ public class AnnotationsInMemoryDsTest {
             readPhoto.getName() + ":" + readPhoto.getType());
   }
 
-  @Test
+  // @Test
   // public void ensureTwoKeyEntityKeysAreUnique() throws Exception {
   //   EdmEntitySet edmEntitySet = createMockedEdmEntitySet("Photos");
   //
